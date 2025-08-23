@@ -21,7 +21,7 @@ function SubcribeSection() {
             And never miss latest Updates!
           </p>
         </div>
-        <div className="flex items-center gap-[20px] mx-[114px] mb-[64px]">
+        <div className="flex items-center gap-[20px] mb-[64px] mx-auto">
           <div className="w-[574px] h-[60px] border border-white">
             <input
               placeholder="Email Address"
