@@ -1,5 +1,6 @@
 import { images } from "@/assets/images";
 import ButtonNavigator from "@/components/ButtonNavigator";
+import ChildHeaderPage from "@/components/ChildHeaderPage";
 import Divider from "@/components/Divider";
 import SubcribeSection from "@/components/Subcribe";
 import Image from "next/image";
@@ -19,6 +20,12 @@ function Photos() {
   ];
   return (
     <div className="pt-[110px] bg-black">
+      <ChildHeaderPage
+        label1="Enjoy The Atmospheric"
+        label2="Photos!"
+        description="If you are looking for an authentic café in Zelzate, Café Regina is the right place for you! You can be inspired by the atmospheric photos on this page. This gives you a taste of what you can expect when you visit the café. So be sure to check out these photos! "
+      />
+      <Divider type="without-logo" />
       <div className="container mx-auto py-[70px] grid grid-cols-5 gap-[24px]">
         {imagesGl.map((img, index) => (
           <Image
