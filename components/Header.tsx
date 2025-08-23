@@ -4,18 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { paths } from "@/utils/constants/paths";
 
 function Header() {
   const pathname = usePathname();
 
   const pages = [
-    { label: "Home", paths: "/" },
-    { label: "Drinks", paths: "/drinks" },
-    { label: "Small Hunger", paths: "/small-hunger" },
-    { label: "Suggestions", paths: "/suggestions" },
-    { label: "Photos", paths: "/photos" },
-    { label: "About us", paths: "/about" },
-    { label: "Contact us", paths: "/contact" },
+    { label: "Home", paths: paths.home },
+    { label: "Drinks", paths: paths.drinks },
+    { label: "Small Hunger", paths: paths.smallHunger },
+    { label: "Suggestions", paths: paths.suggestions },
+    { label: "Photos", paths: paths.photos },
+    { label: "About us", paths: paths.aboutUs },
+    { label: "Contact us", paths: paths.contact },
   ];
 
   return (
