@@ -23,7 +23,7 @@ function SubcribeSection() {
           </p>
         </div>
         <div className="flex items-center gap-[20px] mb-[64px] mx-auto">
-          <InputCustom placeholder="Email Address" />
+          <InputCustom placeholder="Email Address" width="w-[574px]" />
           <button className="bg-[#DCCA87] text-black p-[8px_32px] uppercase h-[60px] font-semibold">
             Subcribe
           </button>
