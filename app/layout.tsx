@@ -55,7 +55,7 @@ export default function RootLayout({
         `}
       >
         <Header />
-        <main className="bg-[#0E0D0A] min-h-screen">{children}</main>
+        <main className="bg-black min-h-screen">{children}</main>
         <Divider type="without-logo" />
         <Footer />
       </body>

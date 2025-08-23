@@ -1,4 +1,5 @@
 import HeaderSection from "./HeaderSections";
+import InputCustom from "./InputCustom";
 
 function SubcribeSection() {
   return (
@@ -22,12 +23,7 @@ function SubcribeSection() {
           </p>
         </div>
         <div className="flex items-center gap-[20px] mb-[64px] mx-auto">
-          <div className="w-[574px] h-[60px] border border-white">
-            <input
-              placeholder="Email Address"
-              className="h-full w-full focus-within:outline-none placeholder:text-[#AAAAAA] p-4"
-            />
-          </div>
+          <InputCustom placeholder="Email Address" />
           <button className="bg-[#DCCA87] text-black p-[8px_32px] uppercase h-[60px] font-semibold">
             Subcribe
           </button>

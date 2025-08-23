@@ -23,6 +23,7 @@ function Photos() {
       <ChildHeaderPage
         label1="Enjoy The Atmospheric"
         label2="Photos!"
+        labelButton="Contact Us"
         description="If you are looking for an authentic café in Zelzate, Café Regina is the right place for you! You can be inspired by the atmospheric photos on this page. This gives you a taste of what you can expect when you visit the café. So be sure to check out these photos! "
       />
       <Divider type="without-logo" />
