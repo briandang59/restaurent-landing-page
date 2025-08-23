@@ -14,6 +14,12 @@ import photoGalery1 from "./pg1.jpg";
 import photoGalery2 from "./pg2.jpg";
 import photoGalery3 from "./pg3.jpg";
 import photoGalery4 from "./pg4.jpg";
+import photoGalery5 from "./pg5.jpg";
+import photoGalery6 from "./pg6.jpg";
+import photoGalery7 from "./pg7.jpg";
+import photoGalery8 from "./pg8.jpg";
+import photoGalery9 from "./pg9.jpg";
+import photoGalery10 from "./pg10.jpg";
 import banner1 from "./banner1.jpg";
 import banner2 from "./banner2.jpg";
 import mainBanner from "./mainBanner.jpg";
@@ -35,6 +41,12 @@ export const images = {
   photoGalery2,
   photoGalery3,
   photoGalery4,
+  photoGalery5,
+  photoGalery6,
+  photoGalery7,
+  photoGalery8,
+  photoGalery9,
+  photoGalery10,
   banner1,
   banner2,
   mainBanner,

@@ -199,7 +199,6 @@ export default function Home() {
 
       <Divider />
       <SubcribeSection />
-      <Divider type="without-logo" />
     </div>
   );
 }
