@@ -1,7 +1,13 @@
 import { svgs } from "@/assets/svgs";
 import Image from "next/image";
 
-function Divider() {
+interface DividerProps {
+  type?: "default" | "without-logo";
+}
+function Divider({ type = "default" }: DividerProps) {
+  if (type === "without-logo") {
+    return <div className="border border-b-[#191919] border-b-[2px]"></div>;
+  }
   return (
     <div className="flex items-center">
       <div className="border border-b-[#191919] border-b-[2px] w-[47%]"></div>
