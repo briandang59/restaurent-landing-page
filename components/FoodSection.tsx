@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ButtonNavigator from "./ButtonNavigator";
-import { svgs } from "@/assets/svgs";
 
 interface FoodSectionProps {
   title: string;
