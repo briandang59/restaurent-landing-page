@@ -14,6 +14,10 @@ import photoGalery1 from "./pg1.jpg";
 import photoGalery2 from "./pg2.jpg";
 import photoGalery3 from "./pg3.jpg";
 import photoGalery4 from "./pg4.jpg";
+import banner1 from "./banner1.jpg";
+import banner2 from "./banner2.jpg";
+import mainBanner from "./mainBanner.jpg";
+
 export const images = {
   bgImage,
   food1,
@@ -31,4 +35,7 @@ export const images = {
   photoGalery2,
   photoGalery3,
   photoGalery4,
+  banner1,
+  banner2,
+  mainBanner,
 };

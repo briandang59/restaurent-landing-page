@@ -1,5 +1,6 @@
 import { images } from "@/assets/images";
 import { svgs } from "@/assets/svgs";
+import BannerSection from "@/components/BannerSection";
 import BlogItem from "@/components/BlogItem";
 import ButtonNavigator from "@/components/ButtonNavigator";
 import Divider from "@/components/Divider";
@@ -110,6 +111,7 @@ export default function Home() {
     <div className="bg-black min-h-screen pt-[110px]">
       {/* Food Section */}
       <div className="container mx-auto">
+        <BannerSection />
         <div className="flex flex-col gap-[20px]">
           {foodContents.map((food, i) => (
             <FoodSection key={i} {...food} />
