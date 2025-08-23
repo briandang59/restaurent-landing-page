@@ -19,7 +19,7 @@ function Header() {
   ];
 
   return (
-    <header className="p-[20px_40px] bg-black fixed top-0 w-full">
+    <header className="p-[20px_40px] bg-black fixed top-0 w-full z-50">
       <div className="container mx-auto flex items-center justify-between">
         <Image
           src={svgs.logo}

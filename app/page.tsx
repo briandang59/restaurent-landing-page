@@ -1,6 +1,9 @@
 import { svgs } from "@/assets/svgs";
 import BlogItem from "@/components/BlogItem";
+import ButtonNavigator from "@/components/ButtonNavigator";
+import Divider from "@/components/Divider";
 import FoodSection from "@/components/FoodSection";
+import HeaderSection from "@/components/HeaderSections";
 
 export default function Home() {
   const foodContents = [
@@ -32,21 +35,35 @@ export default function Home() {
   return (
     <div className="bg-[#000000] min-h-screen pt-[110px]">
       <div className="container mx-auto">
-        {foodContents.map((food, index) => (
-          <FoodSection
-            categoriesList={food.categoriesList}
-            title={food.title}
-            image={food.image}
-            description={food.description}
-            key={index}
-          />
-        ))}
+        <div className="flex flex-col gap-[20px]">
+          {foodContents.map((food, index) => (
+            <FoodSection
+              categoriesList={food.categoriesList}
+              title={food.title}
+              image={food.image}
+              description={food.description}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
-      <div className="flex items-center gap-[20px] container mx-auto">
-        <BlogItem />
-        <BlogItem />
-        <BlogItem />
-        <BlogItem />
+      <Divider />
+      <div className="container mx-auto mt-[70px]">
+        <div className="flex flex-col gap-[24px] items-center justify-center">
+          <HeaderSection
+            title="Weekend Suggestion"
+            description="During the weekend at Café Regina you can treat yourself to a delicious hot meal that is prepared with a lot of care and love. Our chef gets to work and conjures up traditional Flemish classics that will delight your taste buds. So be sure to drop by or contact this business! "
+            position="center"
+            width="w-[50%]"
+          />
+          <ButtonNavigator label="Read more" />
+        </div>
+        <div className="flex items-center gap-[20px] mt-[63px]">
+          <BlogItem />
+          <BlogItem />
+          <BlogItem />
+          <BlogItem />
+        </div>
       </div>
     </div>
   );
