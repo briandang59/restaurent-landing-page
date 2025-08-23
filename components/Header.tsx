@@ -28,21 +28,23 @@ function Header() {
           height={70}
           className="size-[70px]"
         />
-        <ul className="flex items-center gap-[35px]">
-          {pages.map((page) => (
-            <li
-              key={page.label}
-              className={clsx(
-                "uppercase duration-300 transition-all cursor-pointer",
-                pathname === page.paths
-                  ? "text-white"
-                  : "text-[#969493] hover:text-white"
-              )}
-            >
-              <Link href={page.paths}>{page.label}</Link>
-            </li>
-          ))}
-        </ul>
+        <aside>
+          <ul className="flex items-center gap-[35px]">
+            {pages.map((page) => (
+              <li
+                key={page.label}
+                className={clsx(
+                  "uppercase duration-300 transition-all cursor-pointer",
+                  pathname === page.paths
+                    ? "text-white"
+                    : "text-[#969493] hover:text-white"
+                )}
+              >
+                <Link href={page.paths}>{page.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </aside>
       </div>
     </header>
   );

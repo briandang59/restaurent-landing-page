@@ -28,9 +28,9 @@ function FoodSection({
         <Image
           src={image}
           alt="food"
-          width={800}
-          height={600}
-          className="w-[800px] h-[600px]"
+          width={500}
+          height={500}
+          className="min-w-[600px] min-h-[500px]"
         />
       </div>
       <div className="flex items-center justify-center">

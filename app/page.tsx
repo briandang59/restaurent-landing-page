@@ -30,7 +30,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="bg-[#000000] min-h-screen pt-[130px]">
+    <div className="bg-[#000000] min-h-screen pt-[110px]">
       <div className="container mx-auto">
         {foodContents.map((food, index) => (
           <FoodSection

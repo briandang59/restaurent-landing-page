@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 // Google font
 const inter = Inter({
@@ -54,6 +55,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="bg-[#0E0D0A] min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
