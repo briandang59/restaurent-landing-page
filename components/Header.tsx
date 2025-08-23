@@ -24,9 +24,9 @@ function Header() {
         <Image
           src={svgs.logo}
           alt="logo"
-          width={70}
-          height={70}
-          className="size-[70px]"
+          width={105}
+          height={105}
+          className="size-[105px]"
         />
         <aside>
           <ul className="flex items-center gap-[35px]">
