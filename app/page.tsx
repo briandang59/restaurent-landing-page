@@ -1,9 +1,11 @@
+import { images } from "@/assets/images";
 import { svgs } from "@/assets/svgs";
 import BlogItem from "@/components/BlogItem";
 import ButtonNavigator from "@/components/ButtonNavigator";
 import Divider from "@/components/Divider";
 import FoodSection from "@/components/FoodSection";
 import HeaderSection from "@/components/HeaderSections";
+import Image from "next/image";
 
 export default function Home() {
   const foodContents = [
@@ -33,7 +35,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="bg-[#000000] min-h-screen pt-[110px]">
+    <div className="bg-black min-h-screen pt-[110px]">
       <div className="container mx-auto">
         <div className="flex flex-col gap-[20px]">
           {foodContents.map((food, index) => (
@@ -49,20 +51,79 @@ export default function Home() {
       </div>
       <Divider />
       <div className="container mx-auto mt-[70px]">
+        <div className="relative min-h-[900px]">
+          <div className="flex flex-col gap-[24px] items-center justify-center">
+            <HeaderSection
+              title="Weekend Suggestion"
+              description="During the weekend at Café Regina you can treat yourself to a delicious hot meal that is prepared with a lot of care and love. Our chef gets to work and conjures up traditional Flemish classics that will delight your taste buds. So be sure to drop by or contact this business! "
+              position="center"
+              width="w-[50%]"
+            />
+            <ButtonNavigator label="Read more" />
+          </div>
+          <div>
+            <Image
+              src={images.food1}
+              alt="food"
+              width={500}
+              height={500}
+              className="w-[257px] h-[391px] rounded-t-[160px] absolute left-0 rotate-[-16deg] object-cover"
+            />
+            <Image
+              src={images.food2}
+              alt="food"
+              width={500}
+              height={500}
+              className="w-[212px] h-[297px] rounded-t-[160px] absolute left-[255px] top-[380px] rotate-[-6deg] object-cover"
+            />
+            <Image
+              src={images.food3}
+              alt="food"
+              width={500}
+              height={500}
+              className="max-w-[270px] max-h-[392px] rounded-t-[160px] absolute left-[450px] top-[450px] rotate-[-11deg] object-cover"
+            />
+            <Image
+              src={images.food6}
+              alt="food"
+              width={500}
+              height={500}
+              className="w-[239px] min-h-[336px] rounded-t-[160px] absolute right-[-50px] rotate-[5deg] object-cover"
+            />
+            <Image
+              src={images.food5}
+              alt="food"
+              width={500}
+              height={500}
+              className="w-[239px] h-[335px] rounded-t-[160px] absolute right-[175px] top-[380px] rotate-[3deg] object-cover"
+            />
+            <Image
+              src={images.food4}
+              alt="food"
+              width={500}
+              height={500}
+              className="w-[258px] min-h-[362px] rounded-t-[160px] absolute right-[400px] top-[480px] rotate-[11deg] object-cover"
+            />
+          </div>
+        </div>
         <div className="flex flex-col gap-[24px] items-center justify-center">
           <HeaderSection
-            title="Weekend Suggestion"
-            description="During the weekend at Café Regina you can treat yourself to a delicious hot meal that is prepared with a lot of care and love. Our chef gets to work and conjures up traditional Flemish classics that will delight your taste buds. So be sure to drop by or contact this business! "
+            title="Events"
+            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. "
             position="center"
             width="w-[50%]"
           />
-          <ButtonNavigator label="Read more" />
-        </div>
-        <div className="flex items-center gap-[20px] mt-[63px]">
-          <BlogItem />
-          <BlogItem />
-          <BlogItem />
-          <BlogItem />
+          <div className="flex items-center gap-[2px]">
+            <ButtonNavigator className="rotate-180" />
+            <ButtonNavigator />
+          </div>
+          <div className="flex items-center gap-[20px] mt-[63px] mb-[100px]">
+            <BlogItem />
+            <BlogItem />
+            <BlogItem />
+            <BlogItem />
+            <BlogItem />
+          </div>
         </div>
       </div>
     </div>
