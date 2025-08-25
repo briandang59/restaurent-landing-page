@@ -5,8 +5,9 @@ import potato from "./potato.svg";
 import fb from "./fb.svg";
 import twitter from "./twitter.svg";
 import instagram from "./instagram.svg";
-
+import line from "./line.svg";
 export const svgs = {
+  line,
   logo,
   arrow,
   drink,
