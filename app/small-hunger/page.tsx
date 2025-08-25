@@ -6,8 +6,63 @@ import MenuItem from "@/components/MenuItem";
 function SmallHunger() {
   const menus = [
     {
-      title: "Refreshments",
+      title: "Beers Bottle",
       menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
         {
           label: "Chapel Hill Shiraz",
           description: "AU | Bottle",
@@ -46,8 +101,28 @@ function SmallHunger() {
       ],
     },
     {
-      title: "Pancakes / Waffles",
+      title: "Aperitifs/Degestives",
       menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
         {
           label: "Chapel Hill Shiraz",
           description: "AU | Bottle",
@@ -76,8 +151,80 @@ function SmallHunger() {
       ],
     },
     {
-      title: "Savory mouth pleasure",
+      title: "Draft beers",
       menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+      ],
+    },
+    {
+      title: "Wines",
+      menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
         {
           label: "Chapel Hill Shiraz",
           description: "AU | Bottle",
@@ -96,8 +243,153 @@ function SmallHunger() {
       ],
     },
     {
-      title: "Little Hunger",
+      title: "Draft beers",
       menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+      ],
+    },
+    {
+      title: "Warm drinks",
+      menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+      ],
+    },
+    {
+      title: "Non-alcoholic beers",
+      menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+      ],
+    },
+    {
+      title: "Soft drinks",
+      menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
+      ],
+    },
+    {
+      title: "Non-alcoholic cocktails",
+      menuItem: [
+        {
+          label: "Chapel Hill Shiraz",
+          description: "AU | Bottle",
+          price: 56,
+        },
         {
           label: "Chapel Hill Shiraz",
           description: "AU | Bottle",
@@ -152,7 +444,7 @@ function SmallHunger() {
                 .filter((_, i) => i % 2 === 0) // các section chẵn -> cột trái
                 .map((m, index) => (
                   <div className="flex flex-col gap-[30px]" key={index}>
-                    <h3 className="font-normal text-[40px] text-white">
+                    <h3 className="font-normal text-[40px] text-white uppercase text-nowrap">
                       {m.title}
                     </h3>
                     <div className="flex flex-col gap-[30px]">
@@ -176,7 +468,7 @@ function SmallHunger() {
                 .filter((_, i) => i % 2 !== 0) // các section lẻ -> cột phải
                 .map((m, index) => (
                   <div className="flex flex-col gap-[30px]" key={index}>
-                    <h3 className="font-normal text-[40px] text-white">
+                    <h3 className="font-normal text-[40px] text-white uppercase text-nowrap">
                       {m.title}
                     </h3>
                     <div className="flex flex-col gap-[30px]">

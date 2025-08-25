@@ -17,7 +17,9 @@ function MenuItem({ type, label, description, price }: MenuItemProps) {
   return (
     <div className="flex flex-col gap-[8px]">
       <div className="flex items-center gap-[32px]">
-        <h4 className="text-[#DCCA87] font-semibold text-[25px]">{label}</h4>
+        <h4 className="text-[#DCCA87] font-semibold text-[25px] text-nowrap">
+          {label}
+        </h4>
         <div className="w-[119px] border-b border-[#FAFAFA]"></div>
         <p className="text-[23px] font-bold text-white">${price}</p>
       </div>
