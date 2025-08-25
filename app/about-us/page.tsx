@@ -5,7 +5,6 @@ import SubcribeSection from "@/components/Subcribe";
 import Image from "next/image";
 
 function AboutUs() {
-  const years = [{}];
   return (
     <div className="pt-[130px]">
       <ChildHeaderPage
