@@ -2,13 +2,17 @@ import { images } from "@/assets/images";
 import ButtonNavigator from "@/components/ButtonNavigator";
 import Divider from "@/components/Divider";
 import Image from "next/image";
+import Link from "next/link";
 
 function BlogDetail() {
   return (
     <div className="pt-[170px] ">
       <Divider type="without-logo" />
       <div className="flex items-center justify-center py-[25px]">
-        <ButtonNavigator label="Back to home" position="left" />
+        <Link href={"/"}>
+          {" "}
+          <ButtonNavigator label="Back to home" position="left" />
+        </Link>
       </div>
       <Divider type="without-logo" />
       <div className="pt-[170px] mx-auto container">

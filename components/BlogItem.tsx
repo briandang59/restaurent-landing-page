@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface BlogItemProps {
   date: string;
@@ -18,22 +19,26 @@ function BlogItem({
     <div className="flex flex-col gap-[24px] max-w-[270px] p-2">
       <Image
         src={thumbnail}
-        width={270}
-        height={267}
+        width={1000}
+        height={1000}
         alt="thumnail"
-        className="rounded-t-full w-[270px] h-[267] object-cover"
+        className="rounded-t-full h-[267] object-cover"
       />
       <div className="flex flex-col items-start gap-[10px]">
         <p className="text-[16px] font-normal text-[#969493] uppercase">
           {date}
         </p>
-        <h3 className="text-white font-semibold text-[30px]">{title}</h3>
+        <h3 className="text-white font-semibold text-[30px] text-nowrap">
+          {title}
+        </h3>
         <p className="text-[16px] font-normal text-[#969493] leading-[25px]">
           {description}
         </p>
-        <button className="text-[#DCCA87] font-normal uppercase text-[18px] cursor-pointer">
-          {labelButton}
-        </button>
+        <Link href={"/blog/1"}>
+          <button className="text-[#DCCA87] font-normal uppercase text-[18px] cursor-pointer">
+            {labelButton}
+          </button>
+        </Link>
       </div>
     </div>
   );
