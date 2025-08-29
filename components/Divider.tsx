@@ -14,9 +14,9 @@ function Divider({ type = "default" }: DividerProps) {
       <Image
         src={svgs.logo}
         alt="logo"
-        width={124}
-        height={124}
-        className="size-[124px]"
+        width={1000}
+        height={1000}
+        className="lg:size-[124px] size-[50px]"
       />
       <div className="border border-b-[#191919] border-b-[2px] w-[47%]"></div>
     </div>

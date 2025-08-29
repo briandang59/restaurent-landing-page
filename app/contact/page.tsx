@@ -4,7 +4,7 @@ import Divider from "@/components/Divider";
 
 function Contact() {
   return (
-    <div className="pt-[110px]">
+    <div className="lg:pt-[110px] pt-[70px] px-4 lg:px-0">
       <ChildHeaderPage
         label1="Contact Cafe"
         label2="Regina"

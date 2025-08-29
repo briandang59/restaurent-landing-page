@@ -18,7 +18,7 @@ function AboutUs() {
   ];
 
   return (
-    <div className="pt-[130px]">
+    <div className="lg:pt-[110px] px-4 lg:px-0">
       <ChildHeaderPage
         label1="Know About Cafe"
         label2="Regina"
@@ -26,8 +26,8 @@ function AboutUs() {
         labelButton="Contact us"
       />
       <Divider type="without-logo" />
-      <div className="pt-[70px] pb-[100px] container mx-auto">
-        <div className="relative">
+      <div className="lg:pt-[70px] lg:pb-[100px] lg:container lg:mx-auto px-4 lg:px-0">
+        <div className="lg:relative hidden">
           <Image src={svgs.line} alt="line" width={5000} height={1000} />
           {/* Years */}
           <div className="absolute top-[-40px] left-0 right-0 px-[90px] flex justify-between">
@@ -48,10 +48,10 @@ function AboutUs() {
 
         {/* Content */}
         <div className="mt-[70px] flex flex-col gap-[40px]">
-          <h3 className="text-white font-semibold text-[50px]">
+          <h3 className="text-white font-semibold text-[25px] lg:text-[50px]">
             Lorem Ipsum is simply dummy text
           </h3>
-          <p className="text-[#969493] text-[16px] font-normal leading-[28px]">
+          <p className="text-[#969493] text-[14px] lg:text-[16px] font-normal lg:leading-[28px]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard dummy
             text ever since the 1500s, when an unknown printer took a galley of

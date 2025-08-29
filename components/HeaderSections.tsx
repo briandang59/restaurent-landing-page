@@ -15,7 +15,9 @@ function HeaderSection({
   if (position === "left") {
     return (
       <div className="flex flex-col gap-[20px]">
-        <h2 className="text-[50px] font-semibold text-white">{title}</h2>
+        <h2 className="text-[25px] lg:text-[50px] font-semibold text-white">
+          {title}
+        </h2>
         <p className="text-[#969493] font-normal text-[16px] leading-[28px]">
           {description}
         </p>
@@ -30,7 +32,9 @@ function HeaderSection({
           width
         )}
       >
-        <h2 className="text-[50px] font-semibold text-white">{title}</h2>
+        <h2 className="text-[25px] lg:text-[50px] font-semibold text-white">
+          {title}
+        </h2>
         <p className="text-[#969493] font-normal text-[16px] leading-[28px] text-center">
           {description}
         </p>

@@ -20,7 +20,7 @@ function ButtonNavigator({
           alt="button"
           className={clsx("min-w-[100px] h-[40px] rotate-180", className)}
         />
-        <p className="text-[#DCCA87] uppercase font-normal text-[18px]">
+        <p className="text-[#DCCA87] uppercase font-normal text-[18px] text-nowrap">
           {label}
         </p>
       </button>
@@ -28,7 +28,7 @@ function ButtonNavigator({
   }
   return (
     <button className="flex items-center gap-[20px] cursor-pointer">
-      <p className="text-[#DCCA87] uppercase font-normal text-[18px]">
+      <p className="text-[#DCCA87] uppercase font-normal text-[18px] text-nowrap">
         {label}
       </p>
       <Image

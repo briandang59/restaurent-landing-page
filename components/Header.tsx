@@ -20,16 +20,16 @@ function Header() {
   ];
 
   return (
-    <header className="p-[20px_40px] bg-black fixed top-0 w-full z-50">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="p-[10px_20px] lg:p-[20px_40px] bg-black fixed top-0 w-full z-50">
+      <div className="lg:container lg:mx-auto flex items-center justify-between">
         <Image
           src={svgs.logo}
           alt="logo"
-          width={105}
-          height={105}
-          className="size-[105px]"
+          width={1000}
+          height={1000}
+          className="size-[50px] lg:size-[105px]"
         />
-        <aside>
+        <aside className="lg:block hidden">
           <ul className="flex items-center gap-[35px]">
             {pages.map((page) => (
               <li
